@@ -73,9 +73,8 @@ The applicant receives an email the following day, informing them that their CV 
 - Google Sheets API credentials (for storing extracted data)
 - Nodemailer setup for sending emails
 
-### Steps to Run the Application
 
-1. Clone the repository:
+ Clone the repository:
 
    ```bash
    git clone https://github.com/your-username/job-application-processing-pipeline.git
