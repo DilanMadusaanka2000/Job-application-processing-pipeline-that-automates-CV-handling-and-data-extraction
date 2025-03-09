@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import axios from 'axios';
+import { HeroSection, Footer}  from './components/HeroSection';
 
 function JobApplicationForm() {
     const [file, setFile] = useState(null);
@@ -53,6 +54,9 @@ function JobApplicationForm() {
     };
 
     return (
+        <>
+
+        <HeroSection />
         <div class="container mt-5">
         <h2 class="text-center mb-4">Job Application Form</h2>
         <form>
@@ -75,7 +79,12 @@ function JobApplicationForm() {
             <button type="submit" class="btn btn-primary w-100" onClick={handleUpload}>Submit Application</button>
         </form>
     </div>
-    
+
+    <br />
+    <r />
+
+    <Footer />
+    </>
     );
 }
 
